@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SL19-121
+#
+DEF SL19-121 U 0 40 N Y 1 L N
+F0 "U" -250 -75 50 V V L BNN
+F1 "SL19-121" -150 125 50 V V L BNN
+F2 "255SB" 0 0 50 H I L BNN
+F3 "Canal Components" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "SL19-121" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "Switch: slide; 2-position; SPDT; 3A/250VAC; 6A/28VDC; ON-ON" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -150 75 -100 75 N
+P 2 0 0 10 -150 75 -150 0 N
+P 2 0 0 10 -150 -75 -200 -75 N
+P 2 0 0 6 -150 0 -75 0 N
+P 2 0 0 10 -150 0 -150 -75 N
+P 2 0 0 6 -50 0 -30 0 N
+P 2 0 0 6 10 0 25 0 N
+P 2 0 0 10 100 -125 100 -75 N
+P 2 0 0 10 100 -75 25 125 N
+P 2 0 0 10 150 100 200 100 N
+P 2 0 0 10 200 100 200 125 N
+P 2 0 0 10 0 100 50 100 N
+P 2 0 0 10 0 100 0 125 N
+P 2 0 0 6 50 0 75 0 N
+P 2 0 0 6 -30 0 -10 -30 N
+P 2 0 0 6 -10 -30 10 0 N
+X P 2 100 -200 100 U 40 40 0 0 P 
+X S 3 200 200 100 D 40 40 0 0 P 
+X O 1 0 200 100 D 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
