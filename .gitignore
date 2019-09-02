@@ -1,4 +1,5 @@
 *.zip
 fp-info-cache
 *-bak
-
+.log
+.raw
