@@ -1,0 +1,31 @@
+Circuit: * Z:\home\ctxz\dev\Video-Glitch-Array\PixelSlasher\LTSpice\PixelSlasher.asc
+
+Direct Newton iteration for .op point succeeded.
+.step rpot=1000
+.step rpot=2000
+.step rpot=3000
+.step rpot=4000
+.step rpot=5000
+.step rpot=6000
+.step rpot=7000
+.step rpot=8000
+.step rpot=9000
+.step rpot=10000
+
+Date: Mon Sep 02 17:16:07 2019
+Total elapsed time: 0.214 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2109
+traniter = 2090
+tranpoints = 1046
+accept = 1046
+rejected = 0
+matrix size = 15
+fillins = 21
+solver = Normal
+Matrix Compiler1: 1.79 KB object code size  0.8/1.1/[0.3]
+Matrix Compiler2: 1.49 KB object code size  0.5/0.4/[0.4]
+
