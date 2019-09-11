@@ -1,0 +1,14 @@
+Here is a set of rules/standards that I should probably try to keep up when designing my circuits and PCBs...
+
+PCBs:
+
+  Traces:
+
+    - Ensure mirrored traces are symmetrical
+
+  Silkscreen:
+
+    - Keep a 40mm spacing between reference designator and the components footprint Silkscreen
+    - Keep a 70mm spacing between header descriptors and the header footprint Silkscreen
+    - Use a 0.75mm text widht and height and 0.1mm thickness for header descriptors
+    - Keep labels horizontally or vertically centered
