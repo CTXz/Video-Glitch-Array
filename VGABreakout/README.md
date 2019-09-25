@@ -2,19 +2,21 @@
 
 ![Board Showcase](Docs/Showcase1.jpg)
 
-The Video Glitch Array Breakout board offers a clean and convenient replacement for messy generic VGA breakout boards. This board was developed out of the frequent frustration of having to deal with a rat's nest of cables and loose contacts when working with generic VGA breakout boards.
+The Video Glitch Array Breakout board offers a clean and convenient replacement for messy generic VGA breakout boards. This board was developed out of the frequent frustration of having to deal with a rat's nest of cables and loose contacts.
 
 In the upcoming future it is planned to add a amplifier section to the breakout board, to make interfacing with modular electronics easier.
 
 ## Operation
 
-The VGA breakout board takes a incoming VGA signal on one side of the board and outputs an outgoing VGA signal on the other side of the board. At the moment, the orientation for plugging in the VGA cables is irrelevant, however this may change in the future with the addition of an amplifier. Only the relevant signals necessary for VGA glitching (R, G, B, HSYNC, VSYNC, 5V) are broken out. For each broken out signal/pin, with the exception of the 5V and ground pin, two ports are are provided, one at the input and one at the output.  
+The VGA breakout board takes a incoming VGA signal on one side of the board and outputs an outgoing VGA signal on the other side of the board. At the moment, the orientation for plugging in the VGA cables is irrelevant, however this may change in the future with the addition of an amplifier. Only the relevant signals necessary for VGA glitching (R, G, B, HSYNC, VSYNC, 5V) are broken out. For each broken out signal/pin, with the exception of the 5V and ground pin, two ports are are provided, one at the input and one at the output.
 
 Between the input and output, a SPST switch is present for every broken out signal. The operation of the input and output ports depends on the state of the SPST switch:
 
 - When the switch is closed, the broken out signal will pass from the input to the output, thus allowing for devices to be connected in parallel to the signal. In other words, when the switch is closed, the breakout board offers two parallel inputs for the signal.
 
 - When the switch is opened, no signal is passed, thus requiring for devices to be connected in series. In other words, when the switch is open, the breakout board offers a series connection going from the
+
+The 5V switch is there to increase the supply current on the 5V pin. It is highly recommended to initially keep the 5V switch closed as it may be required to power the monitors internal EEPROM that provides the host peripherals with generic information such as the display model, resolution etc. Once initialized, feel free to open the switch.
 
 ![Usage Showcase](Docs/Showcase2.jpg)
 
