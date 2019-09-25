@@ -12,9 +12,9 @@ The VGA breakout board takes a incoming VGA signal on one side of the board and 
 
 Between the input and output, a SPST switch is present for every broken out signal. The operation of the input and output ports depends on the state of the SPST switch:
 
-- When the switch is closed, the broken out signal will pass from the input to the output, thus allowing for devices to be connected in parallel to the signal. In other words, when the switch is closed, the breakout board offers two parallel inputs for the signal.
+- When the switch is closed, the signal will pass trough. Devices connected on either of the two breakout ports will be connected in parallel. 
 
-- When the switch is opened, no signal is passed, thus requiring for devices to be connected in series. In other words, when the switch is open, the breakout board offers a series connection going from the
+- When the switch is opened, the signal can't pass trough. Devices connected accross both breakout ports will be connected in series.
 
 The 5V switch is there to increase the supply current on the 5V pin. It is highly recommended to initially keep the 5V switch closed as it may be required to power the monitors internal EEPROM that provides the host peripherals with generic information such as the display model, resolution etc. Once initialized, feel free to open the switch.
 
