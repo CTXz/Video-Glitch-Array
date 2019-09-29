@@ -12,9 +12,9 @@ The VGA breakout board takes a incoming VGA signal on one side of the board and 
 
 Between the input and output, a SPST switch is present for every broken out signal. The operation of the input and output ports depends on the state of the SPST switch:
 
-- When the switch is closed, the signal will pass trough. Devices connected on either of the two breakout ports will be connected in parallel. 
+- When the switch is closed, the signal will pass trough. Devices connected on either of the two breakout ports will be connected in parallel.
 
-- When the switch is opened, the signal can't pass trough. Devices connected accross both breakout ports will be connected in series.
+- When the switch is opened, the signal can't pass trough. Devices connected across both breakout ports will be connected in series.
 
 The 5V switch is there to increase the supply current on the 5V pin. It is highly recommended to initially keep the 5V switch closed as it may be required to power the monitors internal EEPROM that provides the host peripherals with generic information such as the display model, resolution etc. Once initialized, feel free to open the switch.
 
@@ -22,13 +22,17 @@ The 5V switch is there to increase the supply current on the 5V pin. It is highl
 
 ## Schematic
 
+![Schematic](Docs/Schematic.png)
+
 You can download the Schematic for the VGA Breakout board [here](Docs/Schematic.pdf). Alternatively you can import this board into KiCad and browse the schematic there.
 
 ## PCB
 
+![PCB](Docs/PCB.png)
+
 ### Files
 
-All KiCad PCB files, as well as gerbers can be found in this directory. To order the PCB, simply grab the grab the `Gerbers` from your gerbers directory and send them to your preferred PCB manufacturer.
+All KiCad PCB files, as well as gerbers can be found in this directory. To order the PCB, simply grab the grab the gerbers from the `Gerbers` directory and send them to your preferred PCB manufacturer.
 
 ### Components
 
