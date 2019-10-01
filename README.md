@@ -25,6 +25,7 @@ I could likely be going on forever, but I believe I have already managed to demo
 
 I could explain how VGA signals work, however due to my brutally honest laziness and lack of competence in explaining things, I will leave you with a few resources which in my opinion do a much better job of explaining VGA than me. Many of the resources below explain VGA as part of a guide to create your own VGA driver, so it is not expected, nor required, that everything is understood.
 
+- [Go Board - VGA Introduction](https://www.nandland.com/goboard/vga-introduction-test-patterns.html) by nandland
 - [VGA - the Rest of the Story](http://www.xess.com/blog/vga-the-rest-of-the-story/) by Dave Vandenbout
 - [VGA Video Output](http://web.mit.edu/6.111/www/labkit/vga.shtml) by Natahn Ickes
 - [LCD monitors: Clock/Pitch and Phase controls for analog-input](http://www.techmind.org/lcd/phasexplan.html) by William Andrew Steer
