@@ -30,7 +30,7 @@ I could explain how VGA signals work, however due to my brutally honest laziness
 - [VGA Video Output](http://web.mit.edu/6.111/www/labkit/vga.shtml) by Natahn Ickes
 - [LCD monitors: Clock/Pitch and Phase controls for analog-input](http://www.techmind.org/lcd/phasexplan.html) by William Andrew Steer
 - [VGA ECE3534](https://drive.google.com/file/d/1oJ0iN84QY8XnXu3txFdtZf11J46l7f6y/view?usp=sharing) by Virginia Tech (Pardon the mirror, but I can no longer find the original source)
-- [The world's worst video card?](https://www.youtube.com/watch?v=l7rce6IQDWs&t=976s) An amazing two part guide by Ben Eater
+- [The world's worst video card?](https://www.youtube.com/watch?v=l7rce6IQDWs) An amazing two part guide by Ben Eater
 - [SW6 VGA Audio](http://www.partyzant.com.pl/instrukcje/matrixy/SW6_VGA_Audio.pdf) by Extron(R) Electronics, which provides fairly standard impedance specifications
 
 Further, check out this [Stack Overflow question](https://electronics.stackexchange.com/questions/221536/vga-driver-not-working) which answers why there is no output when you apply a constant color signal. This will save you a large headache and time!
