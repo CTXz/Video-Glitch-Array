@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "VIDEO GLITCH ARRAY Pixel Slasher"
 Date "2019-08-24"
-Rev "2.0"
+Rev "2.1"
 Comp ""
 Comment1 ""
 Comment2 "https://www.tapr.org/TAPR_Open_Hardware_License_v1.0.txt"
@@ -54,7 +54,7 @@ L Device:R R3
 U 1 1 5D6A5FB8
 P 6900 2300
 F 0 "R3" H 6725 2350 50  0000 L CNN
-F 1 "40k" H 6700 2250 50  0000 L CNN
+F 1 "51k" H 6700 2250 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6830 2300 50  0001 C CNN
 F 3 "~" H 6900 2300 50  0001 C CNN
 	1    6900 2300
@@ -93,7 +93,7 @@ L Device:R R5
 U 1 1 5D6B3F88
 P 8960 2300
 F 0 "R5" H 8775 2350 50  0000 L CNN
-F 1 "40k" H 8750 2250 50  0000 L CNN
+F 1 "51k" H 8750 2250 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8890 2300 50  0001 C CNN
 F 3 "~" H 8960 2300 50  0001 C CNN
 	1    8960 2300
@@ -328,7 +328,7 @@ L Device:R R1
 U 1 1 5D61ABBB
 P 4850 2300
 F 0 "R1" H 4650 2350 50  0000 L CNN
-F 1 "40k" H 4625 2250 50  0000 L CNN
+F 1 "51k" H 4625 2250 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 2300 50  0001 C CNN
 F 3 "~" H 4850 2300 50  0001 C CNN
 	1    4850 2300
