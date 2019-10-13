@@ -1,6 +1,6 @@
 # VGA Breakout
 
-> **NOTE: This board is still in its early stages and may contain errors or perform suboptimally. It is subject to major changes in the future.**
+> **NOTE: This board is still in its early stages and may contain errors or perform sub-optimally. It is subject to major changes in the future.**
 
 ![Board Showcase](Docs/Showcase1.jpg)
 
@@ -40,7 +40,7 @@ All KiCad PCB files, as well as gerbers can be found in this directory. To order
 
 > **NOTE: At the moment the D-SUB 15 footprints are wrong. The recommended D-SUB 15 connectors will not fit and thus require the anchor points to be cut and the pins to be bent!**
 
-The following table provides a list of the necessary components for the breakout board, along with links to some examples. It is highly recommended to do a little research yourself here. Chances are that your local hardware store might be selling some components allot cheaper.  
+The following table provides a list of the necessary components for the breakout board, along with links to some examples. It is highly recommended to do a little research yourself here. Chances are that your local hardware store might be selling some components a lot cheaper.
 
 |Component                |Quantity|Examples|Notes/Tips|
 |-------------------------|--------|--------|----------|
