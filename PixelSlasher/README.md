@@ -75,7 +75,7 @@ The following table provides a list of the necessary components along with links
 
 ### Soldering
 
-When soldering, I recommend to begin with the resistors first, as those are the smallest components. Then proceed with the female headers and transistors. The solder in the LM393 chips, and last but not least, the switches and the slide pots.
+When soldering, I recommend to begin with the resistors first, as those are the smallest components. Then proceed with the female headers and transistors. Then solder in the LM393 chips, and last but not least, the switches and the slide pots.
 
 Soldering the transistors leads can be a little difficult due to the density of the pins. It's highly recommended to have soldering braid/wick at your hand. In future revisions it is planned to increase the size of the transistor footprints.
 
