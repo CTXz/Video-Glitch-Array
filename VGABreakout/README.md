@@ -42,12 +42,12 @@ All KiCad PCB files, as well as gerbers can be found in this directory. To order
 
 The following table provides a list of the necessary components for the breakout board, along with links to some examples. It is highly recommended to do a little research yourself here. Chances are that your local hardware store might be selling some components a lot cheaper.
 
-|Component                |Quantity|Examples|Notes/Tips|
-|-------------------------|--------|--------|----------|
-|1x2 2.54mm Female Headers|1       |https://www2.mouser.com/ProductDetail/Molex/90147-1102?qs=sGAEpiMZZMs%252BGHln7q6pm8uos17B4BQAkcs7fV01%2F0k= |Should you already have larger 2.54mm Female headers lying around, you could easily cut those instead of buying new ones|
-|1x5 2.54mm Female Headers|2       |https://www2.mouser.com/ProductDetail/Molex/90147-1105?qs=sGAEpiMZZMs%252BGHln7q6pm8uos17B4BQAKRARw53BRV0%3D |Should you already have larger 2.54mm Female headers lying around, you could easily cut those instead of buying new ones|
-|4.7mm Spacing SPST or SPDT Slide Switch|5       |https://www.amazon.com/SS12D10-Straight-Spacing-SS12D10G5-Vertical/dp/B07SJPN2HM/ref=sr_1_1?keywords=4.7mm+spacing+slide+switch&qid=1569413333&s=gateway&sr=8-1 | Should these become too pricey, feel free to edit the PCB in KiCad to fit a different switch|   
-|DS1038-15FBNSIA74 D-SUB 15 Connector|2|https://www.tme.eu/gb/details/dmr15f-hd/d-sub-connectors/connfly/ds1038-15fbnsia74/ | Should these become too pricey or are locally unavailable, feel free to edit the PCB in KiCad to fit a different D-SUB 15 connector|
+|Component                |Ref|Quantity|Examples|Notes/Tips|
+|-------------------------|---|--------|--------|----------|
+|1x2 2.54mm Female Headers|J2 |1       |https://www2.mouser.com/ProductDetail/Molex/90147-1102?qs=sGAEpiMZZMs%252BGHln7q6pm8uos17B4BQAkcs7fV01%2F0k= |Should you already have larger 2.54mm Female headers lying around, you could easily cut those instead of buying new ones|
+|1x5 2.54mm Female Headers|J3|1       |https://www2.mouser.com/ProductDetail/Molex/90147-1105?qs=sGAEpiMZZMs%252BGHln7q6pm8uos17B4BQAKRARw53BRV0%3D |Should you already have larger 2.54mm Female headers lying around, you could easily cut those instead of buying new ones|
+|4.7mm Spacing SPST or SPDT Slide Switch|SW1, SW2, SW3, SW4, SW5, Sw6|5       |https://www.amazon.com/SS12D10-Straight-Spacing-SS12D10G5-Vertical/dp/B07SJPN2HM/ref=sr_1_1?keywords=4.7mm+spacing+slide+switch&qid=1569413333&s=gateway&sr=8-1 | Should these become too pricey, feel free to edit the PCB in KiCad to fit a different switch|   
+|DS1038-15FBNSIA74 D-SUB 15 Connector|J1, J5|2|https://www.tme.eu/gb/details/dmr15f-hd/d-sub-connectors/connfly/ds1038-15fbnsia74/ | Should these become too pricey or are locally unavailable, feel free to edit the PCB in KiCad to fit a different D-SUB 15 connector|
 
 ### Soldering
 

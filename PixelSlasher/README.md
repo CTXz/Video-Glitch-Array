@@ -62,16 +62,16 @@ All KiCad PCB files, as well as gerbers can be found in this directory. To order
 
 The following table provides a list of the necessary components along with links to some examples. It is highly recommended to do a little research yourself here. Chances are that your local hardware store might be selling some components a lot cheaper.  
 
-|Component                |Quantity|Examples|Notes/Tips|
-|-------------------------|--------|--------|----------|
-|1x5 2.54mm Female Headers|1       |https://www2.mouser.com/ProductDetail/Molex/90147-1105?qs=sGAEpiMZZMs%252BGHln7q6pm8uos17B4BQAKRARw53BRV0%3D |Should you already have larger 2.54mm Female headers lying around, you could easily cut those instead of buying new ones|
-|1x1 2.54mm Female Header |1       |Not available, must be cut|As 1x1 female headers aren't available commercially, they must be cut. Alternatively you can use male pin headers instead|
-|4.7mm Spacing SPST or SPDT Slide Switch|3       |https://www.amazon.com/SS12D10-Straight-Spacing-SS12D10G5-Vertical/dp/B07SJPN2HM/ref=sr_1_1?keywords=4.7mm+spacing+slide+switch&qid=1569413333&s=gateway&sr=8-1 | Should these become too pricey, feel free to edit the PCB in KiCad to fit a different switch|   
-|LM393 DIP-8|2|https://www.mouser.de/ProductDetail/Texas-Instruments/LM393P?qs=sGAEpiMZZMuayl%2FEk2kXcddlv8%252BlGbVFYZWyaRldvtc%3D |These will almost certainly be available for dirt cheap at your local hardware store. Any DIP8 version will do (LM393P, LM393NG, etc.). If you would like to reuse the LM393 chips later on, it may be desired to use DIP-8 sockets.|
-|BC337 TO-92 (ideally straight lead)|3|https://www.mouser.de/ProductDetail/Taiwan-Semiconductor/BC337-40-A1?qs=sGAEpiMZZMshyDBzk1%2FWiwIK8FF8XsC1RNbmjp0kCPo%3D |These will almost certainly be available for dirt cheap at your local hardware store. Bent lead packages will require a little force to insert trough.|
-|10k, 60mm length, 45mm travel, 9mm width, linear slide potentiometers|3|https://www.mouser.de/ProductDetail/Bourns/PTA4553-2010CIB103?qs=sGAEpiMZZMtC25l1F4XBU%252BN3R7ksrj06xuOmWpCZ94k%3D | |
-|3.3k Resistors|3|https://www.mouser.de/ProductDetail/Vishay-Beyschlag/MBB02070C8200FCT00?qs=LkqrmUh5PII6P3inXi6ZTw%3D%3D&vip=1&gclid=CjwKCAjwlovtBRBrEiwAG3XJ-xNsZWIVeUh_aOER6JCOpZIqBPNapCJ1sNui1su29KHtjrVvs_qh3RoCCVQQAvD_BwE | Since these are pull-up resistors, their resistances aren't critical. Thus any ordinary 1k to 10k resistor will do just fine as well.|
-|51k resistors|3|https://www.mouser.de/ProductDetail/Yageo/MFR-25FTE52-51K?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNnd2ZOrYz8UKLE%3D | These should be as precise as possible. A too low resistance will shorten the practical potentiometer range. A too high resistance will cause effects to still appear even at the highest resistance.|
+|Component                |Ref|Quantity|Examples|Notes/Tips|
+|-------------------------|---|--------|--------|----------|
+|1x5 2.54mm Female Headers|J1|1       |https://www2.mouser.com/ProductDetail/Molex/90147-1105?qs=sGAEpiMZZMs%252BGHln7q6pm8uos17B4BQAKRARw53BRV0%3D |Should you already have larger 2.54mm Female headers lying around, you could easily cut those instead of buying new ones|
+|1x1 2.54mm Female Header |J2, J3, J4|3       |Not available, must be cut|As 1x1 female headers aren't available commercially, they must be cut. Alternatively you can use male pin headers instead|
+|4.7mm Spacing SPST or SPDT Slide Switch|SW1, SW2, SW3|3       |https://www.amazon.com/SS12D10-Straight-Spacing-SS12D10G5-Vertical/dp/B07SJPN2HM/ref=sr_1_1?keywords=4.7mm+spacing+slide+switch&qid=1569413333&s=gateway&sr=8-1 | Should these become too pricey, feel free to edit the PCB in KiCad to fit a different switch|   
+|LM393 DIP-8|U1, U2|2|https://www.mouser.de/ProductDetail/Texas-Instruments/LM393P?qs=sGAEpiMZZMuayl%2FEk2kXcddlv8%252BlGbVFYZWyaRldvtc%3D |These will almost certainly be available for dirt cheap at your local hardware store. Any DIP8 version will do (LM393P, LM393NG, etc.). If you would like to reuse the LM393 chips later on, it may be desired to use DIP-8 sockets.|
+|BC337 TO-92 (ideally straight lead)|Q1, Q2, Q3|3|https://www.mouser.de/ProductDetail/Taiwan-Semiconductor/BC337-40-A1?qs=sGAEpiMZZMshyDBzk1%2FWiwIK8FF8XsC1RNbmjp0kCPo%3D |These will almost certainly be available for dirt cheap at your local hardware store. Bent lead packages will require a little force to insert trough.|
+|10k, 60mm length, 45mm travel, 9mm width, linear slide potentiometers|RV1, RV2, RV3|3|https://www.mouser.de/ProductDetail/Bourns/PTA4553-2010CIB103?qs=sGAEpiMZZMtC25l1F4XBU%252BN3R7ksrj06xuOmWpCZ94k%3D | |
+|3.3k Resistors|R2, R4, R6|3|https://www.mouser.de/ProductDetail/Vishay-Beyschlag/MBB02070C8200FCT00?qs=LkqrmUh5PII6P3inXi6ZTw%3D%3D&vip=1&gclid=CjwKCAjwlovtBRBrEiwAG3XJ-xNsZWIVeUh_aOER6JCOpZIqBPNapCJ1sNui1su29KHtjrVvs_qh3RoCCVQQAvD_BwE | Since these are pull-up resistors, their resistances aren't critical. Thus any ordinary 1k to 10k resistor will do just fine as well.|
+|51k resistors|R1, R3, R5|3|https://www.mouser.de/ProductDetail/Yageo/MFR-25FTE52-51K?qs=sGAEpiMZZMu61qfTUdNhG0IXHLFuiNnd2ZOrYz8UKLE%3D | These should be as precise as possible. A too low resistance will shorten the practical potentiometer range. A too high resistance will cause effects to still appear even at the highest resistance.|
 
 ### Soldering
 
